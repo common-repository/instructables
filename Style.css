@@ -1,0 +1,55 @@
+/*
+	Instructables Plugin Stylesheet
+*/
+.instructables_tiles
+{
+	display: flex;
+	display: -webkit-flex; /* Safari 8 */
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;         /* Safari 8 */
+	justify-content: center;
+	-webkit-justify-content: center;
+	text-align: center;
+	vertical-align: top;
+}
+
+.instructables_tile
+{
+	margin: 0;
+	padding: 0;
+	
+	width: 300px;
+	height: 200px;
+	border: 3px solid;
+	border-color: inherit;
+	
+	margin: 10px;
+	min-height: 300px;
+	width: 300px;
+}
+
+.instructables_tile header
+{
+	margin: 0;
+	padding: 0;
+	
+	text-align: center !important;
+	vertical-align: top;
+}
+
+.instructables_tile a, .instructables-post a
+{
+	text-decoration: none !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+.instructables_tile .post-thumbnail
+{
+	margin: 0;
+	padding: 0;
+	
+	display: block;
+    margin: auto;
+	clear: both;
+}
